@@ -1,0 +1,146 @@
+- Bài 138: Bài tập Notification phần 1
+- Bài 139: Bài tập Notification phần 2
+- Bài 140: Các thuộc tính liên quan tới offset
+- Bài 141: Các thuộc tính liên quan tới client
+- Bài 142: Các thuộc tính liên quan tới window
+- Bài 143: Tìm hiểu getBoundingClientRect()
+- Bài 144: Sự khác nhau giữa NodeList và HTMLCollection
+- Bài 145: Sự khác nhau giữa parentNode và parentElement
+- Bài 146: Tìm hiểu document.title và document.head
+- Bài 147: Tìm hiểu thêm phương thức insertBefore
+- Bài 148: Tìm hiểu thêm phương thức replaceChild
+
+# Chương 9: Tất tần tật về sự kiện trong Javascript
+
+- Bài 149: Giới thiệu
+- Bài 150: Sự kiện click
+- Bài 151: Bubbling trong click
+- Bài 152: Capturing trong click
+- Bài 153: Sự khác nhau giữa target và currentTarget
+- Bài 154: preventDefault() để làm gì ?
+- Bài 155: Bài tập Random background color
+- Bài 156: Bài tập Counter
+- Bài 157: Tìm hiểu object style
+- Bài 158: Truy xuất giá trị của custom attribute như nào ?
+- Bài 159: Bài tập Toggle menu phần 1
+- Bài 160: Bài tập Toggle menu phần 2
+- Bài 161: Bài tập Tab phần 1
+- Bài 162: Bài tập Tab phần 2
+- Bài 163: Bài tập Tab phần 3
+- Bài 164: Bài tập Accordion phần 1
+- Bài 165: Bài tập Accordion phần 2
+- Bài 166: Bài tập Accordion phần 3
+- Bài 167: Bài tập Modal phần 1
+- Bài 168: Bài tập Modal phần 2
+- Bài 169: Bài tập Lightbox phần 1
+- Bài 170: Bài tập Lightbox phần 2
+- Bài 171: Bài tập Lightbox phần 3
+- Bài 172: Bài tập Lightbox phần 4
+- Bài 173: Bài tập Lightbox phần 5
+- Bài 174: Bài tập Dropdown phần 1
+- Bài 175: Bài tập Dropdown phần 2
+- Bài 176: Sự khác nhau giữa load và DOMContentLoaded
+- Bài 177: Sự kiện di chuyển chuột cần nắm
+- Bài 178: Sự khác nhau giữa clientXY và pageXY
+- Bài 179: Bài tập Tooltip phần 1
+- Bài 180: Bài tập Tooltip phần 2
+- Bài 181: Bài tập Tooltip phần 3
+- Bài 182: Bài tập Tooltip phần 4
+- Bài 183: Bài tập Link hover effect phần 1
+- Bài 184: Bài tập Link hover effect phần 2
+- Bài 185: Bài tập Image Zoom hover effect phần 1
+- Bài 186: Bài tập Image Zoom hover effect phần 2
+- Bài 187: Bài tập Image Zoom hover effect phần 3
+- Bài 188: Bài tập Image Zoom hover effect phần 4
+- Bài 189: Bài tập Image Zoom hover effect phần 5
+- Bài 190: Sự kiện keydown
+- Bài 191: Sự kiện keyup
+- Bài 192: Sự kiện keypress
+- Bài 193: Sự kiện change
+- Bài 194: Sự kiện focus và blur
+- Bài 195: Sự kiện submit trong form
+- Bài 196: Truy xuất các giá trị trong cơ bản
+- Bài 197: Truy xuất giá trị của checkboxes như thế nào ?
+- Bài 198: Ví dụ về Form Validation cơ bản
+- Bài 199: Bài tập Show hide password đơn giản
+- Bài 200: Bài tập Highlight search text phần 1
+- Bài 201: Bài tập Highlight search text phần 2
+- Bài 202: Bài tập Highlight search text phần 3
+- Bài 203: Bài tập Highlight search text phần 4
+- Bài 204: Bài tập Highlight search text phần 5
+- Bài 205: Giới thiệu sự kiện scroll
+- Bài 206: Debounce là gì ?
+- Bài 207: window.pageXOffset và window.pageYOffset
+- Bài 208: Các phương thức, thuộc tính về scroll khác
+- Bài 209: offsetWidth và scrollWidth
+- Bài 210: scrollIntoView()
+- Bài 211: Bài tập Fixed Header phần 1
+- Bài 212: Bài tập Fixed Header phần 2
+- Bài 213: Bài tập Progress Bar phần 1
+- Bài 214: Bài tập Progress Bar phần 2
+- Bài 215: Bài tập Tab Scroll phần 1
+- Bài 216: Bài tập Tab Scroll phần 2
+- Bài 217: Bài tập Tab Scroll nâng cao phần 1
+- Bài 218: Bài tập Tab Scroll nâng cao phần 2
+- Bài 219: Bài tập Tab Scroll nâng cao phần 3
+- Bài 220: Bài tập Tab Scroll nâng cao phần 4
+- Bài 221: Bài tập Tab Scroll nâng cao phần 5
+- Bài 222: localStorage toàn tập
+- Bài 223: Bài tập todoList phần 1
+- Bài 224: Bài tập todoList phần 2
+- Bài 225: Bài tập todoList phần 3
+- Bài 226: Bài tập todoList phần 4
+- Bài 227: Bài tập todoList phần 5
+- Bài 228: Bài tập Sweet Alert phần 1
+- Bài 229: Bài tập Sweet Alert phần 2
+- Bài 230:
+- Bài 231:
+- Bài 232:
+- Bài 233:
+- Bài 234:
+- Bài 235:
+- Bài 236:
+- Bài 237:
+- Bài 238:
+- Bài 239:
+- Bài 240:
+- Bài 241:
+- Bài 242:
+- Bài 243:
+- Bài 244:
+- Bài 245:
+- Bài 246:
+- Bài 247:
+- Bài 248:
+- Bài 249:
+- Bài 250:
+- Bài 251:
+- Bài 252:
+- Bài 253:
+- Bài 254:
+- Bài 255:
+- Bài 256:
+- Bài 257:
+- Bài 258:
+- Bài 259:
+- Bài 260:
+- Bài 261:
+- Bài 262:
+- Bài 263:
+- Bài 264:
+- Bài 265:
+- Bài 266:
+- Bài 267:
+- Bài 268:
+- Bài 269:
+- Bài 270:
+- Bài 271:
+- Bài 272:
+- Bài 273:
+- Bài 274:
+- Bài 275:
+- Bài 276:
+- Bài 277:
+- Bài 278:
+- Bài 279:
+- Bài 280:

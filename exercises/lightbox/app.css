@@ -1,0 +1,103 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+input {
+  line-height: normal;
+}
+label,
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* using rem unit */
+html {
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+.content img {
+  cursor: zoom-in;
+}
+.content {
+  max-width: 1024px;
+  padding: 50px 25px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 2;
+  margin: 0 auto;
+}
+.content p {
+  margin-bottom: 30px;
+}
+.content img {
+  display: block;
+  margin-bottom: 30px;
+}
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999999;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lightbox-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+.lightbox-content img {
+  max-height: 400px;
+  width: 90%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.lightbox-content i {
+  color: white;
+  font-size: 60px;
+  cursor: pointer;
+  flex-shrink: 0;
+}

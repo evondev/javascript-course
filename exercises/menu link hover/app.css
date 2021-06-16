@@ -1,0 +1,91 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+input {
+  line-height: normal;
+}
+label,
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* using rem unit */
+html {
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 50px auto;
+}
+.menu-item {
+  margin: 0 25px;
+}
+.menu-link {
+  display: inline-block;
+  color: black;
+  position: relative;
+}
+.line-effect {
+  width: 0;
+  height: 2px;
+  background-color: #3d6ef7;
+  position: fixed;
+  pointer-events: none;
+  transition: all 0.25s linear;
+}
+/* .menu-link:before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #3d6ef7;
+  opacity: 0;
+  visibility: hidden;
+}
+.menu-link:hover:before {
+  opacity: 1;
+  visibility: visible;
+} */

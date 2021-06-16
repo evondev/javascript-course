@@ -1,0 +1,78 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+input {
+  line-height: normal;
+}
+label,
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* using rem unit */
+html {
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+.counter-number {
+  font-size: 100px;
+  margin: 0 10px;
+  color: transparent;
+  background-image: linear-gradient(to right, #00aefd, #ff6bcb);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.counter button {
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  border: 0;
+  color: white;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

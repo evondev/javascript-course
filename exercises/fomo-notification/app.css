@@ -1,0 +1,94 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+input {
+  line-height: normal;
+}
+label,
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* using rem unit */
+html {
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+.noti {
+  position: fixed;
+  left: 15px;
+  bottom: 15px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 8px;
+  display: flex;
+  max-width: 400px;
+  height: 130px;
+  transform: translateY(150%);
+  animation: noti 4s forwards 1 linear;
+}
+@keyframes noti {
+  20%,
+  80% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(150%);
+  }
+}
+.noti-image {
+  width: 30%;
+  flex-shrink: 0;
+  border-radius: inherit;
+  object-fit: cover;
+}
+.noti-content {
+  padding: 15px;
+  flex: 1;
+}
+.noti-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.noti-desc {
+  font-size: 14px;
+  line-height: 1.6;
+}

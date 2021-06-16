@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+input {
+  line-height: normal;
+}
+label,
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* using rem unit */
+html {
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  padding: 25px;
+}
+.accordion {
+  margin-bottom: 25px;
+  max-width: 500px;
+}
+.accordion-header {
+  padding: 20px;
+  border-radius: 4px 4px 0 0;
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accordion-header * {
+  pointer-events: none;
+}
+.accordion-content {
+  border-top: 0;
+  color: #333;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.6;
+  background-color: white;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.25s linear;
+}
+.accordion-content-inner {
+  padding: 20px;
+  border: 1px solid #eee;
+}
+.accordion-content.is-active {
+  height: auto;
+}

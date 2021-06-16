@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Dropdown</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body>
+    <div class="dropdown">
+      <div class="dropdown__select">
+        <span class="dropdown__selected">Call to action</span>
+        <i class="fa fa-caret-down dropdown__caret"></i>
+      </div>
+      <ul class="dropdown__list">
+        <li class="dropdown__item">
+          <span class="dropdown__text">New project</span>
+          <i class="fa fa-plus-circle dropdown__icon"></i>
+        </li>
+        <li class="dropdown__item">
+          <span class="dropdown__text">View profile</span>
+          <i class="fa fa-user dropdown__icon"></i>
+        </li>
+        <li class="dropdown__item">
+          <span class="dropdown__text">Settings</span>
+          <i class="fa fa-cog dropdown__icon"></i>
+        </li>
+        <li class="dropdown__item">
+          <span class="dropdown__text">Logout</span>
+          <i class="fa fa-circle dropdown__icon"></i>
+        </li>
+      </ul>
+    </div>
+    <script src="./final.js"></script>
+  </body>
+</html>

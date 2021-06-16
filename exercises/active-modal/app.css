@@ -1,0 +1,149 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+input {
+  line-height: normal;
+}
+label,
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* using rem unit */
+html {
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+.menu {
+  width: 300px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  list-style: none;
+  transform: translateX(100%);
+  transition: transform 0.25s linear;
+}
+.menu.is-show {
+  transform: translateX(0);
+}
+.menu-link {
+  display: block;
+  padding: 20px 15px;
+  color: #333;
+  border-bottom: 1px solid #eee;
+}
+.boxed {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin-left: 50px;
+  border: 5px solid;
+  border-top: 50px solid;
+}
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.25s linear;
+}
+.modal.is-show {
+  opacity: 1;
+  visibility: visible;
+}
+.modal-content {
+  max-width: 600px;
+  padding: 50px;
+  border-radius: 20px;
+  background-color: white;
+  position: relative;
+}
+.modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #999;
+}
+.modal-desc {
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+.modal-action {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0 20px;
+}
+.modal-submit,
+.modal-cancel {
+  border: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #999;
+}
+.modal-submit {
+  background-color: #3d6ef7;
+  color: white;
+}

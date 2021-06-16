@@ -1,0 +1,32 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* using rem unit */
+html {
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  height: 500vh;
+}
+.boxed {
+  height: 200px;
+  width: 200px;
+  background-color: orange;
+  overflow: auto;
+}
+.boxed-content {
+  height: 600px;
+  width: 600px;
+}
