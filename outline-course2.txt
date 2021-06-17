@@ -93,6 +93,9 @@
 - Bài 227: Bài tập todoList phần 5
 - Bài 228: Bài tập Sweet Alert phần 1
 - Bài 229: Bài tập Sweet Alert phần 2
+
+# Chương 10: Regular expression cơ bản
+
 - Bài 230:
 - Bài 231:
 - Bài 232:

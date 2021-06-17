@@ -342,10 +342,6 @@
 - localStorage.removeItem
   -> Bài tập `Todo List`
   -> Bài tập `Sweet Alert`
-- Các bài tập khác
-  -> Bài tập `Filter item`
-  -> Bài tập `Countdown Timer`
-  -> Bài tập `Simple slider`
 
 # Chương 10: Regular Expression cơ bản
 
@@ -367,14 +363,24 @@
   -- Email validation
   -- Add link to valid domain
   -- Check password strength
-  -- Example real case
 
-# Chương 11: BOM
+# Chương 11: Tạm kết phần 1
 
+- Các bài tập khác
+  -> Bài tập `Shift checkboxes`
+  -> Bài tập `Animation scroll`
+  -> Bài tập `Sticky sidebar`
+  -> Bài tập `Countdown Timer`
+  -> Bài tập `Simple Slider`
+  -> Bài tập `Pinterest layout`
+  -> Bài tập `Rock Paper Scissor Game`
+  -> Bài tập `Matching game`
 - BOM là gì ?
 - Location
 - Navigator
 - History
 - Các sự kiện khác: touchstart, touchmove, touchend, dragstart, dragenter, dragover, dragleave, dragend, drop
+- removeEventListener
+- onEvent
 - once trong event
-- Tạm kết
+- Tạm kết và bật mí phần 2 Bonus có gì ?
