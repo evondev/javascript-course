@@ -345,28 +345,28 @@
 
 # Chương 10: Regular Expression cơ bản
 
-- sets
-- ranges
-- excluding ranges
-- Escape special character \/
-- characters \d \s \w \D \S \W .
-- search
+- Giới thiệu Regular expression
+- 2 cách khai báo Regex
 - match
 - test
-- replace
-- Anchors ^$
 - Flag gim
-- Quantifiers {n} {n,m}
-- Shorthands + ? \*
-- Boundaries
+- Character classes
+- characters \d \s \w \D \S \W .
+- Anchors ^$
+- Quantifiers {n} {n,m} + ? \*
+- Escape special character \/[ ](){ }
+- Boundaries \b \B
+- replace
+- regex101
 - Bài tập:
   -- Email validation
-  -- Add link to valid domain
   -- Check password strength
+  -- replace complex string
 
 # Chương 11: Tạm kết phần 1
 
 - Các bài tập khác
+  -> Bài tập `CSS Variables`
   -> Bài tập `Shift checkboxes`
   -> Bài tập `Animation scroll`
   -> Bài tập `Sticky sidebar`
