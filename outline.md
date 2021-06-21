@@ -361,14 +361,10 @@
 - Bài tập:
   -- Email validation
   -- Check password strength
-  -- replace complex string
 
 # Chương 11: Tạm kết phần 1
 
 - Các bài tập khác
-  -> Bài tập `CSS Variables`
-  -> Bài tập `Shift checkboxes`
-  -> Bài tập `Animation scroll`
   -> Bài tập `Sticky sidebar`
   -> Bài tập `Countdown Timer`
   -> Bài tập `Simple Slider`

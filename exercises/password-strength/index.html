@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Input password strength</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body>
+    <div class="input-wrapper">
+      <input type="text" class="input" placeholder="Your password" />
+      <div class="input-icons">
+        <i class="fa fa-check"></i>
+        <i class="fa fa-times"></i>
+      </div>
+      <div class="check-list">
+        <div class="check-item check-length" data-validation="length">
+          <i class="fa fa-circle"></i> At least 8 characters
+        </div>
+        <div class="check-item check-upper">
+          <i class="fa fa-circle"></i> Contains at least 1 uppercase
+        </div>
+        <div class="check-item check-number">
+          <i class="fa fa-circle"></i> Contains at least 1 number
+        </div>
+        <div class="check-item check-special">
+          <i class="fa fa-circle"></i> Contains at least 1 special character
+        </div>
+      </div>
+    </div>
+    <script src="./starter.js"></script>
+  </body>
+</html>

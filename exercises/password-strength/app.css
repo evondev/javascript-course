@@ -1,0 +1,127 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+input {
+  line-height: normal;
+}
+label,
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* using rem unit */
+html {
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.input {
+  background-color: white;
+  border: 0;
+  border-radius: 50px;
+  padding: 15px 25px;
+  padding-right: 50px;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  display: block;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 100%;
+}
+.input.invalid + .input-icons .fa-times,
+.input.valid + .input-icons .fa-check {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+.input-wrapper {
+  position: relative;
+  width: 300px;
+  margin: 25px auto;
+}
+.input-icons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-icons i {
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0);
+  transition: all 0.2s ease;
+  position: absolute;
+}
+.fa-check {
+  background-color: #20e3b2;
+}
+.fa-times {
+  background-color: #fc5776;
+}
+.check-list {
+  margin-top: 25px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #999;
+}
+.check-item {
+  margin-bottom: 15px;
+}
+.check-item.active {
+  color: #20e3b2;
+}
+.check-item.unactive {
+  color: #f00;
+}
+.check-item i {
+  font-size: 12px;
+  color: inherit;
+  margin-right: 10px;
+}
