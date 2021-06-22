@@ -74,6 +74,10 @@
 - Tìm hiểu Map
 - Đệ quy
 - Bài tập đệ quy
+- BOM là gì ?
+- Location
+- Navigator
+- History
 - Các kênh Youtube hay nên theo dõi
 - Các tài khoản Instagram hay nên theo dõi
 - Các ebooks hay nên đọc

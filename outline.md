@@ -364,6 +364,11 @@
 
 # Chương 11: Tạm kết phần 1
 
+- async và defer script
+- removeEventListener
+- onClick vs addEventListener("click")
+- once trong event
+- Các sự kiện khác: touchstart, touchmove, touchend, dragstart, dragenter, dragover, dragleave, dragend, drop
 - Các bài tập khác
   -> Bài tập `Sticky sidebar`
   -> Bài tập `Countdown Timer`
@@ -371,12 +376,4 @@
   -> Bài tập `Pinterest layout`
   -> Bài tập `Rock Paper Scissor Game`
   -> Bài tập `Matching game`
-- BOM là gì ?
-- Location
-- Navigator
-- History
-- Các sự kiện khác: touchstart, touchmove, touchend, dragstart, dragenter, dragover, dragleave, dragend, drop
-- removeEventListener
-- onEvent
-- once trong event
-- Tạm kết và bật mí phần 2 Bonus có gì ?
+- Tạm kết và bật mí phần 2 có gì ?
