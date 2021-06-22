@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Countdown Timer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body>
+    <ul class="countdown">
+      <li>
+        <span class="number days">0</span>
+        <span class="text">days</span>
+      </li>
+      <li>
+        <span class="number hours">0</span>
+        <span class="text">hours</span>
+      </li>
+      <li>
+        <span class="number minutes">0</span>
+        <span class="text">minutes</span>
+      </li>
+      <li>
+        <span class="number seconds">0</span>
+        <span class="text">seconds</span>
+      </li>
+    </ul>
+    <script src="./starter.js"></script>
+  </body>
+</html>

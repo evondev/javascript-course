@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+input {
+  line-height: normal;
+}
+label,
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  background-image: linear-gradient(to right, #fc5776, #6a5af9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.countdown {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 4px;
+  padding: 25px;
+}
+.countdown li {
+  text-align: center;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+}
+.number,
+.text {
+  line-height: 1;
+}
+.number {
+  font-size: 100px;
+  margin-bottom: 10px;
+  color: #6a5af9;
+}
+.text {
+  font-size: 20px;
+  font-weight: 300;
+}
