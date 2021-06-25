@@ -25,3 +25,47 @@ body {
   height: 150px;
   width: 150px;
 }
+.card.matched {
+  border: 0;
+  background-image: none !important;
+  pointer-events: none;
+}
+/* Uncomment this later
+.card {
+  position: relative;
+  transition: all 0.4s linear;
+  transform-style: preserve-3d;
+  background: none !important;
+}
+
+.card,
+.back,
+.front {
+  height: 150px;
+  width: 150px;
+}
+
+.back,
+.front {
+  position: absolute;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.front {
+  background: #fab942 url("./img/question.gif") no-repeat center center /
+    contain;
+}
+.back {
+  transform: rotateY(180deg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.selected {
+  transform: rotateY(180deg);
+}
+
+.matched .front {
+  background: #6589f9 !important;
+}
+*/
