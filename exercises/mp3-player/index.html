@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>MP3 player</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body>
+    <div class="player">
+      <div class="player-box">
+        <div class="player-media">
+          <img
+            src="https://cdn.dribbble.com/users/3960463/screenshots/14630140/media/c79331860d7ca1b97430a4888617f428.png?compress=1&resize=800x600"
+            alt=""
+            class="player-image"
+          />
+        </div>
+        <div class="progress">
+          <input
+            type="range"
+            id="progress-bar"
+            min="0"
+            max=""
+            value="0"
+            class="bar"
+          />
+          <audio src="./files/holo.mp3" id="song"></audio>
+        </div>
+        <div class="player-number">
+          <span class="player-duration">0:00</span>
+          <span class="player-remaining">0:00</span>
+        </div>
+      </div>
+      <div class="player-tool">
+        <i class="fa fa-backward player-prev"></i>
+        <i class="fa fa-play player-play"></i>
+        <i class="fa fa-forward player-next"></i>
+      </div>
+    </div>
+    <script src="./starter.js"></script>
+  </body>
+</html>

@@ -9,7 +9,7 @@ body {
   background: #6589f9;
 }
 .grid {
-  max-width: 960px;
+  max-width: 660px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
