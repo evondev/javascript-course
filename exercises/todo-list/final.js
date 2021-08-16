@@ -2,8 +2,7 @@ window.addEventListener("load", function () {
   // Variables declaration
   const form = document.querySelector(".todo-form");
   const todoList = document.querySelector(".todo-list");
-  let todos =
-    localStorage.length > 0 ? JSON.parse(localStorage.getItem("todoList")) : [];
+  let todos = JSON.parse(localStorage.getItem("todoList")) || [];
   // console.log("localStorage", localStorage);
 
   // console.log("todos", todos);
@@ -25,8 +24,7 @@ window.addEventListener("load", function () {
     // Main code
     createTodoItem(todoVal);
     todos.push(todoVal);
-    localStorage.length > 0 &&
-      localStorage.setItem("todoList", JSON.stringify(todos));
+    localStorage && localStorage.setItem("todoList", JSON.stringify(todos));
     // save to localStorage
     this.elements["todo"].value = "";
   });
@@ -39,8 +37,9 @@ window.addEventListener("load", function () {
       todo.parentNode.removeChild(todo);
       // remove todo in localStorage
       const todoText = e.target.previousElementSibling.textContent;
-      const newTodos = todos.filter((item) => item !== todoText);
-      localStorage.setItem("todoList", JSON.stringify(newTodos));
+      const index = todos.findIndex((item) => item === todoText);
+      todos.splice(index, 1);
+      localStorage.setItem("todoList", JSON.stringify(todos));
     }
   });
 });
