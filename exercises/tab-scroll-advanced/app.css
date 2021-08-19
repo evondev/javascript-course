@@ -105,3 +105,6 @@ i.disabled {
   opacity: 0;
   visibility: hidden;
 }
+body {
+  height: 200vh;
+}

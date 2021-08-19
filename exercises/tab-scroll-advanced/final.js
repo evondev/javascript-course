@@ -16,6 +16,7 @@ window.addEventListener("load", function () {
     tabList.scroll(leftSpacing / 2, 0);
   }
   tabList.addEventListener("wheel", function (e) {
+    e.preventDefault();
     const delta = e.deltaY;
     this.scrollLeft += delta;
     if (this.scrollLeft > 0) {
