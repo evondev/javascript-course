@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Picsum photo API</title>
+    <title>Course API</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
@@ -26,10 +26,103 @@
         <span>Get random joke</span>
       </button>
     </div> -->
-    <div class="images">
+    <!-- <div class="images">
       <div class="image-loader"></div>
     </div>
     <button class="load-more">Load more</button>
-    <script src="./api/picsum.js"></script>
+    <script src="./api/picsum.js"></script> -->
+    <form class="form-post" autocomplete="off">
+      <input type="text" name="image" placeholder="Image url" required />
+      <input type="text" name="title" placeholder="Enter your title" required />
+      <input
+        type="text"
+        name="author"
+        placeholder="Enter your author"
+        required
+      />
+      <input
+        type="text"
+        name="rating"
+        placeholder="Rating"
+        min="1"
+        max="5"
+        required
+      />
+      <input type="text" name="price" placeholder="Price" min="1" required />
+      <div>
+        <label for="best-seller">Best Seller?</label>
+        <input type="checkbox" name="bestSeller" id="best-seller" />
+      </div>
+      <input type="text" name="buyAmount" placeholder="Buy amount" value="0" />
+      <button type="submit" class="form-submit">Add course</button>
+    </form>
+    <input type="text" class="filter" name="filter" />
+    <div class="course-list">
+      <!-- <div class="course-item">
+        <div class="course-image">
+          <img src="https://source.unsplash.com/random" alt="" />
+        </div>
+        <div class="course-content">
+          <h3 class="course-title">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </h3>
+          <div class="course-author">Evondev</div>
+          <div class="course-meta">
+            <div class="course-rating">5</div>
+            <div class="course-enroll">1000</div>
+          </div>
+          <div class="course-best-seller">Best seller</div>
+        </div>
+      </div>
+      <div class="course-item">
+        <div class="course-image">
+          <img src="https://source.unsplash.com/random" alt="" />
+        </div>
+        <div class="course-content">
+          <h3 class="course-title">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </h3>
+          <div class="course-author">Evondev</div>
+          <div class="course-meta">
+            <div class="course-rating">5</div>
+            <div class="course-enroll">1000</div>
+          </div>
+          <div class="course-best-seller">Best seller</div>
+        </div>
+      </div>
+      <div class="course-item">
+        <div class="course-image">
+          <img src="https://source.unsplash.com/random" alt="" />
+        </div>
+        <div class="course-content">
+          <h3 class="course-title">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </h3>
+          <div class="course-author">Evondev</div>
+          <div class="course-meta">
+            <div class="course-rating">5</div>
+            <div class="course-enroll">1000</div>
+          </div>
+          <div class="course-best-seller">Best seller</div>
+        </div>
+      </div>
+      <div class="course-item">
+        <div class="course-image">
+          <img src="https://source.unsplash.com/random" alt="" />
+        </div>
+        <div class="course-content">
+          <h3 class="course-title">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </h3>
+          <div class="course-author">Evondev</div>
+          <div class="course-meta">
+            <div class="course-rating">5</div>
+            <div class="course-enroll">1000</div>
+          </div>
+          <div class="course-best-seller">Best seller</div>
+        </div>
+      </div> -->
+    </div>
+    <script src="./api/placeholder.js"></script>
   </body>
 </html>
