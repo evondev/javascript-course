@@ -6,14 +6,10 @@ window.addEventListener("load", function () {
   function handleHighlight(e) {
     let filter = e.target.value;
     filter = filter.toLowerCase();
-    console.log(filter);
     [...items].forEach((item) => {
       const text = item.textContent;
       const index = text.toLowerCase().indexOf(filter);
-      // h
-      // H.toLowerCase() -> h
-      // match
-      if (index >= 0 && text.toLowerCase().startsWith(filter.charAt(0))) {
+      if (index >= 0 && text.toLowerCase().includes(filter)) {
         item.innerHTML = `${text.substring(
           0,
           index
@@ -21,6 +17,8 @@ window.addEventListener("load", function () {
           index,
           index + filter.length
         )}</span>${text.substring(index + filter.length)}`;
+      } else {
+        item.innerHTML = text;
       }
     });
   }
