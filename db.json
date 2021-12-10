@@ -1,5 +1,12 @@
 {
-  "posts": [],
+  "posts": [
+    {
+      "id": 1,
+      "title": "This is example of title",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab eligendi repudiandae, animi nesciunt recusandae cumque perferendis corporis facilis amet a tenetur aliquam vel ipsa optio facere saepe nobis ea quasi!",
+      "author": "evondev"
+    }
+  ],
   "courses": [
     {
       "image": "https://images.unsplash.com/photo-1546842931-886c185b4c8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80",
