@@ -12,8 +12,11 @@ window.addEventListener("load", function () {
   function handleTabClick(e) {
     [...tabItems].forEach((item) => item.classList.remove("active"));
     e.target.classList.add("active");
-    let leftSpacing = e.target.offsetLeft;
-    tabList.scroll(leftSpacing / 2, 0);
+    e.target?.scrollIntoView({
+      behavior: "smooth",
+      block: "nearest",
+      inline: "center",
+    });
   }
   tabList.addEventListener("wheel", function (e) {
     e.preventDefault();
